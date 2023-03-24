@@ -18,11 +18,11 @@ public abstract class Frame {
     public abstract int getScoreOfFrame();
     public abstract int getFrameSize();
 
-    public int getNextFirstBall() {
+    public int getNextFirstThrow() {
         return 0;
     }
 
-    public int getNextSeccondBall() {
+    public int getNextSecondThrow() {
         return 0;
     }
 }

@@ -9,7 +9,7 @@ public abstract class Frame {
         return this.pointsOfFrame;
     }
 
-    public int setPointsOfFrame(int newPoints) {
+    public void setPointsOfFrame(int newPoints) {
         this.pointsOfFrame = newPoints;
     }
 }

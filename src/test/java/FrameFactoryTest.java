@@ -18,7 +18,7 @@ public class FrameFactoryTest {
     @ParameterizedTest
     @ValueSource(strings = {"-/","1/","2/","3/","4/","5/","6/","7/","8/","9/"})
     void testForSpare(String frameString) {
-        assertTrue(FrameFactory.getSpecificFrame(frameString) instanceof Spare);
+        assertTrue(FrameFactory.getSpecificFrame(frameString,null) instanceof Spare);
     }
 
     /**
@@ -27,7 +27,7 @@ public class FrameFactoryTest {
      */
     @Test
     void testForStrike() {
-        assertTrue(FrameFactory.getSpecificFrame("X") instanceof Strike);
+        assertTrue(FrameFactory.getSpecificFrame("X",null) instanceof Strike);
     }
 
     /**
@@ -39,6 +39,6 @@ public class FrameFactoryTest {
     @ParameterizedTest
     @ValueSource(strings = {"12", "34", "1-", "45", "45", "12", "42", "45", "22", "45", "12", "43", "--"})
     void testforNormal(String frameString) {
-        assertTrue(FrameFactory.getSpecificFrame(frameString) instanceof Normal);
+        assertTrue(FrameFactory.getSpecificFrame(frameString,null) instanceof Normal);
     }
 }

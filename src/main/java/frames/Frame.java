@@ -1,17 +1,28 @@
 package frames;
 
+import java.util.List;
+
 public abstract class Frame {
-    private int pointsOfFrame;
+    private int startIdx;
+    private List<Integer> throwings;
 
-    public Frame(int pointsOfFrame) {
-        this.pointsOfFrame = pointsOfFrame;
+    public Frame(List<Integer> throwings) {
+        this.throwings = throwings;
+        this.startIdx = this.throwings.size();
     }
 
-    public int getPointsOfFrame() {
-        return this.pointsOfFrame;
+    public List<Integer> getThrowings() {
+        return this.throwings;
     }
 
-    public void setPointsOfFrame(int newPoints) {
-        this.pointsOfFrame = newPoints;
+    public abstract int getScoreOfFrame();
+    public abstract int getFrameSize();
+
+    public int getNextFirstBall() {
+        return 0;
+    }
+
+    public int getNextSeccondBall() {
+        return 0;
     }
 }

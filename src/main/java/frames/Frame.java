@@ -1,3 +1,5 @@
+package frames;
+
 public abstract class Frame {
     private int pointsOfFrame;
 

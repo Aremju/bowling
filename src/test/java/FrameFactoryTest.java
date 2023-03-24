@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import java.util.ArrayList;
+
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class FrameFactoryTest {
@@ -18,7 +20,7 @@ public class FrameFactoryTest {
     @ParameterizedTest
     @ValueSource(strings = {"-/","1/","2/","3/","4/","5/","6/","7/","8/","9/"})
     void testForSpare(String frameString) {
-        assertTrue(FrameFactory.getSpecificFrame(frameString,null) instanceof Spare);
+        assertTrue(FrameFactory.getSpecificFrame(frameString,new ArrayList<>()) instanceof Spare);
     }
 
     /**
@@ -27,7 +29,7 @@ public class FrameFactoryTest {
      */
     @Test
     void testForStrike() {
-        assertTrue(FrameFactory.getSpecificFrame("X",null) instanceof Strike);
+        assertTrue(FrameFactory.getSpecificFrame("X",new ArrayList<>()) instanceof Strike);
     }
 
     /**
@@ -39,6 +41,6 @@ public class FrameFactoryTest {
     @ParameterizedTest
     @ValueSource(strings = {"12", "34", "1-", "45", "45", "12", "42", "45", "22", "45", "12", "43", "--"})
     void testforNormal(String frameString) {
-        assertTrue(FrameFactory.getSpecificFrame(frameString,null) instanceof Normal);
+        assertTrue(FrameFactory.getSpecificFrame(frameString,new ArrayList<>()) instanceof Normal);
     }
 }

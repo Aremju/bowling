@@ -8,17 +8,36 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BowlingGameTest {
     private BowlingGame bowlingGame;
     @BeforeEach
-    public void setUp() {
+    void setUp() {
         this.bowlingGame = new BowlingGame();
     }
 
     @AfterEach
-    public void tearDown() {
+    void tearDown() {
         this.bowlingGame = null;
     }
     @ParameterizedTest
     @ValueSource(strings = {"X X X X X X X X X X X X"})
     void testOnlyStrikes(String current){
         assertEquals(300,bowlingGame.getScore(current));
+    }
+
+    @ParameterizedTest
+    @ValueSource(strings = {
+            "9/ 8/ 8/ 9/ 8/ 8/ 9/ 8/ 8/ ",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+    })
+    void testOnlySpares(String current) {
+
     }
 }

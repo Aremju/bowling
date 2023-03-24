@@ -24,7 +24,7 @@ public class BowlingGameTest {
 
     @ParameterizedTest
     @ValueSource(strings = {
-            "9/ 8/ 8/ 9/ 8/ 8/ 9/ 8/ 8/ ",
+            "",
             "",
             "",
             "",
@@ -40,4 +40,6 @@ public class BowlingGameTest {
     void testOnlySpares(String current) {
 
     }
+
+
 }

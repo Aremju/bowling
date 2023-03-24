@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59f889c7-78c6-4c11-9d22-dabae9cefe4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frames/FrameFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frames/Normal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FrameFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BowlingGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BowlingGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BowlingGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BowlingGameTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="59f889c7-78c6-4c11-9d22-dabae9cefe4d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +76,7 @@
       <updated>1678964532652</updated>
       <workItem from="1678964533618" duration="2000" />
       <workItem from="1678964642871" duration="358000" />
-      <workItem from="1679658754338" duration="5317000" />
+      <workItem from="1679658754338" duration="6941000" />
     </task>
     <servers />
   </component>

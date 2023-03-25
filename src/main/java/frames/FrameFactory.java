@@ -26,7 +26,11 @@ public class FrameFactory {
 
     /**
      * Factory-Method which creates
-     * a specific Frame-instance depending on the input scoreBoardString
+     * a specific Frame-instance depending on the input scoreBoardString.
+     *
+     * Usage: if you have a bonus frame, assume that the length
+     * of the string is 1, so you can use the HashMap to calculate
+     * your result
      *
      * @param scoreBoardString the given Part of the scoreBoardString
      * @param currentThrows parameter for each Frame object needed
@@ -37,16 +41,20 @@ public class FrameFactory {
     public static Frame getSpecificFrame(String scoreBoardString, List<Integer> currentThrows, int frameNumber) {
         HashMap<String,Integer> bowlingMap = getBowlingMap();
         Frame erg = null;
-        if(frameNumber < 10) {
+        if(frameNumber <= 10) {
             if(scoreBoardString.equals("X")) {
                 erg = new Strike(currentThrows);
             } else if (scoreBoardString.endsWith("/")) {
-                erg = new Spare(currentThrows,5,5);
+                int firstThrow = Integer.parseInt("" + scoreBoardString.charAt(0));
+                int secondThrow = 10 - firstThrow;
+                erg = new Spare(currentThrows,firstThrow,secondThrow);
+            } else {
+                int firstThrow = Integer.parseInt("" + scoreBoardString.charAt(1));
+                int secondThrow = Integer.parseInt("" + scoreBoardString.charAt(1));
+                erg = new Normal(currentThrows,firstThrow,secondThrow);
             }
-        } else if(frameNumber == 10) {
-
         } else {
-
+            erg = new Bonus(currentThrows,bowlingMap.get(scoreBoardString));
         }
         return erg;
     }

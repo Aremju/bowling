@@ -27,7 +27,7 @@ public class FrameFactory {
             if(scoreBoardString.equals("X")) {
                 erg = new Strike(currentThrows);
             } else if (scoreBoardString.endsWith("/")) {
-                erg = new Spare(currentThrows);
+                erg = new Spare(currentThrows,5,5);
             }
         } else if(frameNumber == 10) {
 

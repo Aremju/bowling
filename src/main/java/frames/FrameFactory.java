@@ -59,7 +59,6 @@ public class FrameFactory {
             } else {
                 erg = new Bonus(currentThrows,bowlingMap.get(scoreBoardString));
             }
-
         }
         return erg;
     }

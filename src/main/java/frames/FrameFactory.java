@@ -3,6 +3,10 @@ package frames;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * This class represents the FrameFactory which creates
+ * a Frame-Instance out of the given String-parameter
+ */
 public class FrameFactory {
     private static HashMap<String,Integer> getBowlingMap() {
         HashMap<String,Integer> bowlingMap = new HashMap<>();
@@ -20,6 +24,16 @@ public class FrameFactory {
         return bowlingMap;
     }
 
+    /**
+     * Factory-Method which creates
+     * a specific Frame-instance depending on the input scoreBoardString
+     *
+     * @param scoreBoardString the given Part of the scoreBoardString
+     * @param currentThrows parameter for each Frame object needed
+     * @param frameNumber the current Frame Number to determine bonus throws or not
+     *
+     * @return the specific frame instance
+     */
     public static Frame getSpecificFrame(String scoreBoardString, List<Integer> currentThrows, int frameNumber) {
         HashMap<String,Integer> bowlingMap = getBowlingMap();
         Frame erg = null;

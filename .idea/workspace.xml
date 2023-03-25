@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59f889c7-78c6-4c11-9d22-dabae9cefe4d" name="Changes" comment="" />
+    <list default="true" id="59f889c7-78c6-4c11-9d22-dabae9cefe4d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BowlingGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BowlingGameTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +53,16 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.BowlingGameTest.testOnlyStrikes">
+  <component name="RunManager" selected="JUnit.BowlingGameTest">
+    <configuration name="BowlingGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bowling" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BowlingGameTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BowlingGameTest.testOnlyStrikes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bowling" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BowlingGameTest" />
         <item itemvalue="JUnit.BowlingGameTest.testOnlyStrikes" />
         <item itemvalue="JUnit.FrameFactoryTest" />
       </list>
@@ -87,7 +100,8 @@
       <updated>1678964532652</updated>
       <workItem from="1678964533618" duration="2000" />
       <workItem from="1678964642871" duration="358000" />
-      <workItem from="1679658754338" duration="12149000" />
+      <workItem from="1679658754338" duration="12821000" />
+      <workItem from="1679747956950" duration="4246000" />
     </task>
     <servers />
   </component>

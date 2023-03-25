@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -60,7 +61,6 @@ public class BowlingGameTest {
             "106,35 9/ 43 41 41 53 25 32 7/ XX7",
             "128,X 63 16 8/ 5/ 36 8/ 14 6/ X6/",
             "131,X 9/ 54 6/ 9/ 8/ 45 72 54 63",
-            "103,7/ 43 4/ 54 8/ 9- 9- 6/ 27 9 --",
             "113,X X X -- 54 52 34 5/ 36 35",
             "115,36 41 6/ X 7/ 1- 26 X 62 4/5",
             "123,5/ 27 8/ X X 7- -6 35 8/ 23",

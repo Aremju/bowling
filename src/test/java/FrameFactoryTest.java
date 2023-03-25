@@ -10,6 +10,9 @@ import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/**
+ * This class represents the test class for the FrameFactory
+ */
 public class FrameFactoryTest {
     /**
      * Tests if the FrameFactory creates a Spare-Instance out of a

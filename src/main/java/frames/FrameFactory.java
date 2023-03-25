@@ -3,7 +3,7 @@ package frames;
 import java.util.List;
 
 public class FrameFactory {
-    public static Frame getSpecificFrame(String scoreBoardString, List<Integer> currentThrows) {
+    public static Frame getSpecificFrame(String scoreBoardString, List<Integer> currentThrows, int frameNumber) {
         Frame erg = null;
         if(scoreBoardString.length() == 2 && scoreBoardString.endsWith("/")) { // Spare
             erg = new Spare(currentThrows);

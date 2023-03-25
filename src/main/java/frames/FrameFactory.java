@@ -54,7 +54,12 @@ public class FrameFactory {
                 erg = new Normal(currentThrows,firstThrow,secondThrow);
             }
         } else {
-            erg = new Bonus(currentThrows,bowlingMap.get(scoreBoardString));
+            if(scoreBoardString.equals("/")) {
+                erg = new Bonus(currentThrows,10 - currentThrows.get(currentThrows.size() -1));
+            } else {
+                erg = new Bonus(currentThrows,bowlingMap.get(scoreBoardString));
+            }
+
         }
         return erg;
     }

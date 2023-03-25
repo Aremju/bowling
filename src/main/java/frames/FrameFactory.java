@@ -45,12 +45,12 @@ public class FrameFactory {
             if(scoreBoardString.equals("X")) {
                 erg = new Strike(currentThrows);
             } else if (scoreBoardString.endsWith("/")) {
-                int firstThrow = Integer.parseInt("" + scoreBoardString.charAt(0));
+                int firstThrow = bowlingMap.get("" + scoreBoardString.charAt(0));
                 int secondThrow = 10 - firstThrow;
                 erg = new Spare(currentThrows,firstThrow,secondThrow);
             } else {
-                int firstThrow = Integer.parseInt("" + scoreBoardString.charAt(1));
-                int secondThrow = Integer.parseInt("" + scoreBoardString.charAt(1));
+                int firstThrow = bowlingMap.get("" + scoreBoardString.charAt(0));
+                int secondThrow = bowlingMap.get("" + scoreBoardString.charAt(1));
                 erg = new Normal(currentThrows,firstThrow,secondThrow);
             }
         } else {

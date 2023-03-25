@@ -30,6 +30,13 @@ public class BowlingGameTest {
     void tearDown() {
         this.bowlingGame = null;
     }
+
+    /**
+     * Tests the bowling program
+     *
+     * @param result the expected result
+     * @param currentFrameString the Frame-String provided by user
+     */
     @ParameterizedTest
     @CsvSource({
             "300,X X X X X X X X X X X X",

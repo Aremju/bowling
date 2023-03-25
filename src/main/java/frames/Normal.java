@@ -15,6 +15,6 @@ public class Normal extends Frame{
 
     @Override
     public int getFrameSize() {
-        return 0;
+        return 2;
     }
 }

@@ -49,13 +49,13 @@ public abstract class Frame {
      * @return returns the next first throw after this frame
      */
     public int getNextFirstThrow() {
-        return 0;
+        return getThrowings().get(startIdx+getFrameSize());
     }
 
     /**
      * @return returns the next first throw after this frame
      */
     public int getNextSecondThrow() {
-        return 0;
+        return getThrowings().get(startIdx+getFrameSize()+1);
     }
 }

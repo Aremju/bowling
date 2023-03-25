@@ -24,7 +24,7 @@ public class FrameFactoryTest {
     }
 
     /**
-     * Tests if the FrameFactory creates an Strike instance out of an
+     * Tests if the FrameFactory creates a Strike instance out of an
      * X.
      */
     @Test

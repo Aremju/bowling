@@ -87,22 +87,11 @@
       <updated>1678964532652</updated>
       <workItem from="1678964533618" duration="2000" />
       <workItem from="1678964642871" duration="358000" />
-      <workItem from="1679658754338" duration="11825000" />
+      <workItem from="1679658754338" duration="12149000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/FrameFactoryTest.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -31,10 +31,26 @@ public class BowlingGame {
         for(int i = 0; i < 9; i++) {
             addFrame(splittedScoreBoard[i], i+1);
         }
-        //calculate the bonus frames
+        //calculate the last frame and bonus frames if neccessary
         String lastFrame = splittedScoreBoard[9];
-        for(int i = 0; i < lastFrame.length(); i++) {
-            addFrame(lastFrame.substring(i,i+1), 10);
+        int currentFrameNumber = 10;
+        if(lastFrame.startsWith("X")) {
+            //10th frame starts with strike
+            String s1 = "" + lastFrame.charAt(0);
+            String s2 = "" + lastFrame.charAt(1);
+            String s3 = "" + lastFrame.charAt(2);
+            addFrame(s1,10);
+            addFrame(s2,11);
+            addFrame(s3,12);
+
+        } else if (lastFrame.contains("/")) {
+            //10th frame is a spare
+            String s1 = lastFrame.substring(0,2);
+            String s2 = lastFrame.substring(2);
+            addFrame(s1,10);
+            addFrame(s2,11);
+        } else {
+            addFrame(lastFrame,10);
         }
         return frames.stream().mapToInt(Frame::getScoreOfFrame).sum();
     }

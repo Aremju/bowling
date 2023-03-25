@@ -11,6 +11,10 @@ public abstract class Frame {
         this.startIdx = this.throwings.size();
     }
 
+    protected int getStartIdx() {
+        return this.startIdx;
+    }
+
     public List<Integer> getThrowings() {
         return this.throwings;
     }

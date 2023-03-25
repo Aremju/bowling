@@ -10,7 +10,7 @@ public class Strike extends Frame {
 
     /**
      * creates a Strike-instance and adds 10 to our throwings
-     * @param throwings the current Throws of the player
+     * @param throwings the current throwing of the player
      */
     public Strike(List<Integer> throwings) {
         super(throwings);

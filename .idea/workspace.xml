@@ -50,12 +50,22 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.BowlingGameTest">
+  <component name="RunManager" selected="JUnit.BowlingGameTest.testBowling">
     <configuration name="BowlingGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bowling" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BowlingGameTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BowlingGameTest.testBowling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bowling" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BowlingGameTest" />
+      <option name="METHOD_NAME" value="testBowling(int,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BowlingGameTest.testBowling" />
         <item itemvalue="JUnit.BowlingGameTest" />
         <item itemvalue="JUnit.BowlingGameTest.testOnlyStrikes" />
         <item itemvalue="JUnit.FrameFactoryTest" />
@@ -98,7 +109,7 @@
       <workItem from="1678964533618" duration="2000" />
       <workItem from="1678964642871" duration="358000" />
       <workItem from="1679658754338" duration="12821000" />
-      <workItem from="1679747956950" duration="9628000" />
+      <workItem from="1679747956950" duration="10069000" />
     </task>
     <servers />
   </component>

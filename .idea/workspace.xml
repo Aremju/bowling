@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59f889c7-78c6-4c11-9d22-dabae9cefe4d" name="Changes" comment="" />
+    <list default="true" id="59f889c7-78c6-4c11-9d22-dabae9cefe4d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BowlingGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BowlingGameTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +53,17 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BowlingGameTest.testOnlyStrikes">
+    <configuration name="BowlingGameTest.testOnlyStrikes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bowling" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BowlingGameTest" />
+      <option name="METHOD_NAME" value="testOnlyStrikes(int,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FrameFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bowling" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BowlingGameTest.testOnlyStrikes" />
         <item itemvalue="JUnit.FrameFactoryTest" />
       </list>
     </recent_temporary>
@@ -76,7 +90,7 @@
       <updated>1678964532652</updated>
       <workItem from="1678964533618" duration="2000" />
       <workItem from="1678964642871" duration="358000" />
-      <workItem from="1679658754338" duration="9866000" />
+      <workItem from="1679658754338" duration="11055000" />
     </task>
     <servers />
   </component>
@@ -88,7 +102,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/FrameFactoryTest.java</url>
-          <line>10</line>
+          <line>12</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

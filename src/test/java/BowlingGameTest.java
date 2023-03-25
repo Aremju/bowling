@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -17,28 +18,9 @@ public class BowlingGameTest {
         this.bowlingGame = null;
     }
     @ParameterizedTest
-    @ValueSource(strings = {"X X X X X X X X X X X X"})
-    void testOnlyStrikes(String current){
-        assertEquals(300,bowlingGame.getScore(current));
-    }
-
-    @ParameterizedTest
-    @ValueSource(strings = {
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-    })
-    void testOnlySpares(String current) {
-
+    @CsvSource({"0,X X X X X X X X X X X X"})
+    void testOnlyStrikes(int result, String currentFrameString){
+        assertEquals(result,bowlingGame.getScore(currentFrameString));
     }
 
 

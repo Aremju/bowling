@@ -1,9 +1,7 @@
 package frames;
 
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ValueSource;
-
+import org.junit.jupiter.params.provider.CsvSource;
 import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -19,8 +17,8 @@ public class FrameFactoryTest {
      * @param frameString a String which is supposed to be a Spare
      */
     @ParameterizedTest
-    @ValueSource(strings = {"-/","1/","2/","3/","4/","5/","6/","7/","8/","9/"})
-    void testForSpare(String frameString) {
+    @CsvSource( {"-/,1","1/,2","2/,3","3/,4","4/,5","5/,6","6/,7","7/,8","8/,9","9/,10"})
+    void testForSpare(String frameString, int frameNumber) {
         assertTrue(FrameFactory.getSpecificFrame(frameString,new ArrayList<>(),1) instanceof Spare);
     }
 
@@ -28,9 +26,12 @@ public class FrameFactoryTest {
      * Tests if the FrameFactory creates a Strike instance out of an
      * X.
      */
-    @Test
-    void testForStrike() {
-        assertTrue(FrameFactory.getSpecificFrame("X",new ArrayList<>(),1) instanceof Strike);
+    @ParameterizedTest
+    @CsvSource({
+            "X,1", "X,2", "X,3", "X,4", "X,5", "X,6", "X,7", "X,8", "X,9", "X,10"
+    })
+    void testForStrike(String frameString, int frameNumber) {
+        assertTrue(FrameFactory.getSpecificFrame(frameString,new ArrayList<>(),frameNumber) instanceof Strike);
     }
 
     /**
@@ -40,8 +41,10 @@ public class FrameFactoryTest {
      * @param frameString a String which is supposed to work as a Normal-Frame
      */
     @ParameterizedTest
-    @ValueSource(strings = {"12", "34", "1-", "45", "45", "12", "42", "45", "22", "45", "12", "43", "--"})
-    void testforNormal(String frameString) {
-        assertTrue(FrameFactory.getSpecificFrame(frameString,new ArrayList<>(),1) instanceof Normal);
+    @CsvSource({"12,1", "34,2", "1-,3", "45,4", "45,5", "12,6", "42,7", "45,8", "22,9", "45,10", "12,10", "43,10", "--,1"})
+    void testforNormal(String frameString, int frameNumber) {
+        assertTrue(FrameFactory.getSpecificFrame(frameString,new ArrayList<>(),frameNumber) instanceof Normal);
     }
+
+
 }

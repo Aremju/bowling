@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59f889c7-78c6-4c11-9d22-dabae9cefe4d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BonusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BonusTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BowlingGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BowlingGameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NormalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NormalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpareTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StrikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StrikeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuite.java" afterDir="false" />
-    </list>
+    <list default="true" id="59f889c7-78c6-4c11-9d22-dabae9cefe4d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

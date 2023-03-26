@@ -6,6 +6,7 @@ import java.util.List;
 /**
  * This class represents the FrameFactory which creates
  * a Frame-Instance out of the given String-parameter
+ *
  */
 public class FrameFactory {
     private static HashMap<String,Integer> getBowlingMap() {
@@ -28,7 +29,7 @@ public class FrameFactory {
      * Factory-Method which creates
      * a specific Frame-instance depending on the input scoreBoardString.
      *
-     * Usage: if you have a bonus frame, assume that the length
+     * @implNote if you have a bonus frame, assume that the length
      * of the string is 1, so you can use the HashMap to calculate
      * your result
      *
@@ -54,6 +55,7 @@ public class FrameFactory {
                 erg = new Normal(currentThrows,firstThrow,secondThrow);
             }
         } else {
+            //Check if Bonus Frame is a Spare
             if(scoreBoardString.equals("/")) {
                 erg = new Bonus(currentThrows,10 - currentThrows.get(currentThrows.size() -1));
             } else {

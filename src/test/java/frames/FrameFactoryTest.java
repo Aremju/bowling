@@ -1,9 +1,5 @@
 package frames;
 
-import frames.FrameFactory;
-import frames.Normal;
-import frames.Spare;
-import frames.Strike;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;

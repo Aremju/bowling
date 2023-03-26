@@ -1,3 +1,5 @@
+package frames;
+
 import frames.FrameFactory;
 import frames.Normal;
 import frames.Spare;

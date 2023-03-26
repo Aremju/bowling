@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59f889c7-78c6-4c11-9d22-dabae9cefe4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BonusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BonusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BowlingGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BowlingGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NormalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NormalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpareTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StrikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StrikeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +59,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestSuite">
+  <component name="RunManager" selected="JUnit.java in bowling">
     <configuration name="BowlingGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bowling" />
       <option name="PACKAGE_NAME" value="" />
@@ -85,15 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrameFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bowling" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FrameFactoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bowling" />
       <option name="PACKAGE_NAME" value="" />
@@ -103,13 +98,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="java in bowling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bowling" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.java in bowling" />
         <item itemvalue="JUnit.TestSuite" />
         <item itemvalue="JUnit.BowlingGameTest.testBowling" />
         <item itemvalue="JUnit.BowlingGameTest" />
         <item itemvalue="JUnit.BowlingGameTest.testOnlyStrikes" />
-        <item itemvalue="JUnit.FrameFactoryTest" />
       </list>
     </recent_temporary>
   </component>

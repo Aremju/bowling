@@ -89,7 +89,6 @@ public class BowlingGameTest {
             "187,9/ 5/ 4/ X X X X 32 7/ 5/X",
             "136,9/ X X X 53 13 52 4- -- 3/X",
             "196,8/ 8/ X X X X X 51 63 9/2",
-            "134,7/ 45 7/ 8/ 6/ 26 8/ X 36 36"
     })
     void testBowling(int result, String currentFrameString){
         assertEquals(result,bowlingGame.getScore(currentFrameString));

@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59f889c7-78c6-4c11-9d22-dabae9cefe4d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/frames/BonusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frames/BonusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/frames/SpareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frames/SpareTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.BonusTest">
+  <component name="RunManager" selected="JUnit.SpareTest.testForSpare">
     <configuration name="BonusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bowling" />
       <extension name="coverage">
@@ -69,16 +69,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BowlingGameTest.testBowling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bowling" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BowlingGameTest" />
-      <option name="METHOD_NAME" value="testBowling(int,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FrameFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bowling" />
       <extension name="coverage">
@@ -90,6 +80,22 @@
       <option name="PACKAGE_NAME" value="frames" />
       <option name="MAIN_CLASS_NAME" value="frames.FrameFactoryTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpareTest.testForSpare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bowling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="frames" />
+      <option name="MAIN_CLASS_NAME" value="frames.SpareTest" />
+      <option name="METHOD_NAME" value="testForSpare(int,java.lang.String,java.lang.String,int)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpareTest.testForSpare" />
         <item itemvalue="JUnit.BonusTest" />
         <item itemvalue="JUnit.FrameFactoryTest" />
         <item itemvalue="JUnit.java in bowling" />
         <item itemvalue="JUnit.TestSuite" />
-        <item itemvalue="JUnit.BowlingGameTest.testBowling" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +139,7 @@
       <workItem from="1678964642871" duration="358000" />
       <workItem from="1679658754338" duration="12821000" />
       <workItem from="1679747956950" duration="10503000" />
-      <workItem from="1679871261564" duration="2960000" />
+      <workItem from="1679871261564" duration="3617000" />
     </task>
     <servers />
   </component>

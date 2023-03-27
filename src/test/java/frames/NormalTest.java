@@ -29,7 +29,7 @@ public class NormalTest extends FrameTest{
             "6,33,7",
             "5,14,8",
             "5,23,9",
-            "3,62,10",
+            "8,62,10",
     })
     void testNormalFrame(int result, String frameString, int frameNumber) {
         Frame currentFrame = FrameFactory.getSpecificFrame(frameString,throwings,frameNumber);

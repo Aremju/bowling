@@ -1,2 +1,1 @@
-# bowling
-This is my Bowling-Kata for klose brothers
+This is my TDD solution of the Bowling Kata
